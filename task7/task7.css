@@ -3,7 +3,11 @@
     padding: 20;
     background-color: #161717;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -62,12 +66,13 @@ span {
    display: flex;
    align-items: flex-start;
    gap: 10px;
+   flex-direction: row;
 }
 .division span {
     color: rgba(156, 152, 152, 0.823);
 }
 hr {
-    width: 100vh;
+    width: 50vh;
     margin-block-end: 0%;
     border: none;
     border-top: 1px solid #ccc;
@@ -86,15 +91,16 @@ fieldset {
     align-items: flex-start;
 }
 .fieldset_password label {
-    
-    display: block;
+    flex-direction: row;
+    display: flex;
     font-size: smaller;
 }
 a {
     
-    margin-left: 50px;
+    align-self: revert;
     text-decoration: none;
     color: #4F91E0;
+    margin-left: 10px;
 }
 input {
     border-style: none;
@@ -123,3 +129,4 @@ button:hover {
     transition: background-color 0.2s, border 0.2s, boxshadow 0.2s;
     cursor: pointer;
 }
+
