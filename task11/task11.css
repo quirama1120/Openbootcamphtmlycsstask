@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+}
+.col-sm {
+    background-color: black;
+    color: aliceblue;
+}
+.col-md {
+    background-color: aqua;
+}
+.col-lg {
+    background-color: blue;
+    color: aliceblue;
+}
+.col-xl {
+    background-color: brown;
+}
